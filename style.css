@@ -3,7 +3,6 @@ body{
     margin: 0; 
 }
 .top-banner{
-    /* height: 400px; */
     background-image: url(./images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,4 +66,53 @@ body{
     border-bottom: 1px solid rgb(218, 217, 217);
     padding: 10px;
     margin-bottom: 15px;
+}
+.donation-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.donation-plan .plan-text{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+.donation-plan .plan-text h1{
+    font-weight: bolder;
+    font-size: 45px;
+}
+.medicine-img-size{
+    height: 60px;
+    width: 60px;
+}
+.plan-card-heigth-width{
+    height: 300px;
+    width: 300px;
+}
+.donation-plan .plans-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    padding: 30px;
+    margin-bottom: 70px;
+}
+.donation-plan .plans-card .plan-1{
+    background-color: #DFF6FF;
+    margin: 0px 10px;
+    padding: 10px 15px;
+
+}
+.donation-plan .plans-card .plan-2{
+    background-color: #F6E3C5;
+    margin: 0px 10px;
+    padding: 10px 15px;
+}
+.donation-plan .plans-card .plan-3{
+    background-color: #D3EBCD;
+    margin: 0px 10px;
+    padding: 10px 15px;
 }
