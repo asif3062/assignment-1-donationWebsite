@@ -102,7 +102,7 @@ body{
     align-items: center;
     width: 85%;
     padding: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 0;
 }
 .donation-plan .plans-card .plan-1{
     background-color: #DFF6FF;
@@ -119,6 +119,59 @@ body{
     background-color: #D3EBCD;
     margin: 0px 10px;
     padding: 10px 15px;
+}
+
+.volunteer-img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid tomato;
+}
+.center-everything{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-shadow{
+    box-shadow: 5px 5px 20px gray;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.volunteers{
+    margin-bottom: 60px;
+}
+.volunteers .volunteers-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.volunteers .volunteers-card .volunteer-1{
+    width: 40%;
+    border-left: 2px solid #1F4690;
+}
+.volunteers .volunteers-card .volunteer-1 img{
+    height: 100px;
+    width: 100px;
+}
+.volunteers .volunteers-card .volunteer-2{
+    width: 40%;
+    border-left: 2px solid #4B8673;
+}
+.volunteers .volunteers-card .volunteer-2 img{
+    height: 100px;
+    width: 100px;  
+}
+.volunteers .volunteer-txt{
+    margin: 40px auto;
+    text-align: center;
+    width: 60%;
+}
+.volunteers .volunteer-txt h1{
+    font-size: 45px;
+    margin-bottom: 0px;
 }
 
 footer{
