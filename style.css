@@ -15,7 +15,7 @@ body{
 }
 .top-banner h1{
     font-size: 55px;
-    color: #3AB0FF;
+    color: #fff;
     margin-bottom: 0px;
     text-align: center;
 }
@@ -39,6 +39,9 @@ body{
     align-items: center;
     margin-bottom: 70px;
 }
+.donate-today h1{
+    margin-bottom: 0;
+}
 .donate-today .header-donate-today{
     font-size: 45px;
 }
@@ -57,7 +60,7 @@ body{
 .donate-today .taka .active-taka{
     border: 2px solid tomato;
     border-radius: 5px;
-    background-color: rgb(233, 223, 222);
+    background-color: rgb(246, 242, 241);
 }
 .donate-today .input{
     text-align: center;
@@ -80,6 +83,7 @@ body{
     margin-bottom: 0;
 }
 .donation-plan .plan-text h1{
+    margin-bottom: 0;
     font-weight: bolder;
     font-size: 45px;
 }
