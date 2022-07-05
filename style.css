@@ -1,0 +1,70 @@
+body{
+    font-family: 'Finlandica', sans-serif;
+    margin: 0; 
+}
+.top-banner{
+    /* height: 400px; */
+    background-image: url(./images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    padding: 100px;
+}
+.top-banner h1{
+    font-size: 55px;
+    color: #3AB0FF;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.top-banner p{
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+.button-1{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    background-color: tomato;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+.donate-today{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.donate-today .header-donate-today{
+    font-size: 45px;
+}
+.donate-today p{
+    font-size: 17px;
+    text-align: center;
+}
+.donate-today .taka{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 40px;
+}
+.donate-today .taka h1{
+    padding: 25px 15px;
+}
+.donate-today .taka .active-taka{
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-color: rgb(233, 223, 222);
+}
+.donate-today .input{
+    text-align: center;
+    color: rgb(225, 217, 217);
+    width: 60%;
+    border-bottom: 1px solid rgb(218, 217, 217);
+    padding: 10px;
+    margin-bottom: 15px;
+}
